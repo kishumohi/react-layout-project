@@ -4,8 +4,10 @@ import "./AppLayout.css";
 function AppLayout({ children }) {
   return (
     <div className="AppLayout">
-      <Sidebar />
-      {children}
+      <div className="AppLayout-sidebar">
+        <Sidebar />
+      </div>
+      <div className="AppLayout-body">{children}</div>
     </div>
   );
 }

@@ -1,3 +1,6 @@
 .AppLayout {
   display: flex;
 }
+.AppLayout-body {
+  width: 100%;
+}
