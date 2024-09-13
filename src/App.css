@@ -1,0 +1,15 @@
+.app {
+  padding: 1px;
+  margin: 1px;
+  height: 100vh;
+}
+
+.app-header {
+  font-size: 1.2vw;
+  height: 8vh;
+  text-align: center;
+  border: 1px solid red;
+  box-shadow: rgba(93, 57, 50, 0.815) 0px 50px 100px -20px,
+    rgba(226, 16, 16, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

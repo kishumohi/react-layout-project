@@ -1,0 +1,17 @@
+.sidebar {
+  width: 20vw;
+  height: calc(100vh - 8vh);
+  border: solid 1px red;
+  font-size: 1.2vw;
+  text-align: center;
+}
+.sidebar-menu {
+  margin-top: 3px;
+  font-size: 2vw;
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+}
+.sidebar-menu h3 {
+  text-decoration: none;
+  color: black;
+}
